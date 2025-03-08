@@ -3,7 +3,7 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 h-full lg:min-h-screen bg-[#135276] md:items-center p-5 md:px-10">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 h-full lg:min-h-screen bg-[#135276] rounded-b-[60px] md:items-center p-5 md:px-10">
       {/* Text Section */}
       <div className="space-y-5 lg:space-y-7 text-white order-2 lg:order-1">
         <h5 className="text-lg font-bold">WELCOME TO</h5>
