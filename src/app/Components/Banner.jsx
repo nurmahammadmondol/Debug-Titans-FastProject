@@ -86,7 +86,7 @@ const Banner = () => {
         </div>
       </div>
 
-      {/* Support  */}
+      {/* Support part */}
       <div className="mt-14 mb-10 w-10/12 mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:hidden">
         {/* 1st Box  */}
         <div className="bg-[#eef8ff] h-48 shadow-xl rounded-2xl flex flex-col justify-center items-center gap-4">
