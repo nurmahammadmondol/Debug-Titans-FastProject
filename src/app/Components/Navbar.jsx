@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 const Navbar = () => {
   const Links = (
@@ -12,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="navbar bg-[#135276] shadow-sm text-white">
+      <div className="navbar bg-[#135276]  text-white py-3">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -34,15 +35,20 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-[#135276]  z-1 mt-1  p-2 shadow"
             >
               {Links}
             </ul>
           </div>
 
-          <a className="btn btn-ghost text-2xl md:text-3xl font-bold">
-            Learnica
-          </a>
+          <div>
+            <Image
+              src="/assets/images/learnicaNavlogo.webp"
+              alt="Logo"
+              width={160}
+              height={50}
+            />
+          </div>
         </div>
 
         <div className="navbar-end flex items-center gap-7">
