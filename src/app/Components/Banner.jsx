@@ -88,7 +88,7 @@ const Banner = () => {
 
       {/* Support part */}
       <div className="mt-14 mb-10 w-10/12 mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:hidden">
-        {/* 1st Box  */}
+        {/* 1st Box */}
         <div className="bg-[#eef8ff] h-48 shadow-xl rounded-2xl flex flex-col justify-center items-center gap-4">
           <div className="bg-[#abd1e8] p-4 rounded-full">
             <Image
@@ -101,7 +101,7 @@ const Banner = () => {
           <p className="font-bold text-sm">FLEXIBILITY</p>
         </div>
 
-        {/* 2nd Box  */}
+        {/* 2nd Box */}
         <div className="bg-[#eef8ff] h-48 shadow-xl rounded-2xl flex flex-col justify-center items-center gap-4">
           <div className="bg-[#abd1e8] p-4 rounded-full">
             <Image
@@ -114,7 +114,7 @@ const Banner = () => {
           <p className="font-bold text-sm">24/7 HELPLINE</p>
         </div>
 
-        {/* 3rd Box  */}
+        {/* 3rd Box */}
         <div className="bg-[#eef8ff] h-48 shadow-xl rounded-2xl flex flex-col justify-center items-center gap-4">
           <div className="bg-[#abd1e8] p-4 rounded-full">
             <Image
@@ -127,7 +127,7 @@ const Banner = () => {
           <p className="font-bold text-sm">SECURE CHECKOUT</p>
         </div>
 
-        {/* 4th Box  */}
+        {/* 4th Box */}
         <div className="bg-[#eef8ff] h-48 shadow-xl rounded-2xl flex flex-col justify-center items-center gap-4">
           <div className="bg-[#abd1e8] p-4 rounded-full">
             <Image
