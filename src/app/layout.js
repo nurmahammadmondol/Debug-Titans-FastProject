@@ -3,6 +3,7 @@ import './globals.css';
 
 import BackToTop from './Components/Shared/BackToTop/BackToTop';
 import Navbar from './Components/Navbar';
+import Footer from './components/Footer';
 
 
 const geistSans = Geist({
@@ -28,7 +29,7 @@ export default function RootLayout({ children }) {
       >
         <Navbar></Navbar>
         {children}
-
+        <Footer></Footer>
         <BackToTop></BackToTop>
       </body>
     </html>
