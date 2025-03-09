@@ -1,4 +1,5 @@
 import Banner from './Components/Banner';
+import LatestCourse from './Components/LatestCourse/LatestCourse';
 
 export default function Home() {
   return (
@@ -6,7 +7,9 @@ export default function Home() {
       <div>
         <Banner></Banner>
       </div>
-      <h1> hello would</h1>
+
+      <LatestCourse></LatestCourse>
+      <h1> hello</h1>
     </div>
   );
 }
