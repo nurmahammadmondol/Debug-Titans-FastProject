@@ -3,7 +3,7 @@ import './globals.css';
 
 import BackToTop from './Components/Shared/BackToTop/BackToTop';
 import Navbar from './Components/Navbar';
-import Footer from './components/Footer';
+import Footer from './Components/Footer';
 
 
 const geistSans = Geist({
