@@ -1,7 +1,8 @@
 import React from 'react';
 import cyberimg from '../../../../public/assets/images/cybersecurity.jpg';
 import Image from 'next/image';
-import { FaBookmark } from "react-icons/fa";
+import { FaBookmark } from 'react-icons/fa';
+
 
 const Popular = () => {
     return (
